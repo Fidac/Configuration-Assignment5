@@ -10,14 +10,14 @@ spring:
         native:
           search-locations: classpath:/config
         git:
-          uri: https://github.com/kornsook/chapter5.git
+          uri: https://github.com/Fidac/Configuration-Assignment5
           searchPaths: configfiles
         vault:
           port: 8200
           host: 127.0.0.1
           kvVersion: 2
           authentication: token
-          token: '{cipher}024c74fa80012546951621bb6f11cae92c931831f314b2823e13ca4788228002'
+          token: '{cipher}f875f673a44c41e021b24ec26ae302e17f1b906bc02a063b619325be5046dde9'
     
 server:
   port: 8071
